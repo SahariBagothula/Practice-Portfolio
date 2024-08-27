@@ -1,0 +1,45 @@
+.about {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.about-title {
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.about-content {
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 1rem;
+}
+
+.techstacks {
+    display: flex;
+    background: var(--temp_background);
+    border-radius: 0.8rem;
+    margin: 2rem;
+}
+
+.techstack-logo {
+    object-fit: cover;
+    height: 3rem;
+    width: 3.5rem;
+    margin: 1.5rem 2rem;
+}
+
+.techstack-block {
+    padding: 1rem;
+}
+
+.techstack-content {
+    font-size: 1rem;
+    font-weight: 300;
+}

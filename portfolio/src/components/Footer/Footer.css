@@ -1,0 +1,37 @@
+.footer-page {
+    height: 15rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--temp_background);
+}
+
+.header-contents{
+    display: flex;
+    margin: 1rem auto;
+}
+
+.header-content{
+    padding: 1rem 2rem;
+    color: var( --body_color);
+}
+
+.footer-icons{
+    display: flex;
+    margin: 1rem auto;
+}
+
+.footer-icon {
+    padding: 1rem 2rem;
+}
+
+.footer-icon img{
+    object-fit: cover;
+    height: 2rem;
+    width: 2rem;
+}
+
+.footer-text{
+    text-align: center;
+    padding-bottom: 1rem;
+}

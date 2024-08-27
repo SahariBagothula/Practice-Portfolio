@@ -1,0 +1,33 @@
+:root {
+    --body_background: #000000;
+    --body_color: #ffffff;
+    --special_color: skyblue;
+    --temp_background: rgb(30, 30, 30);
+    --active-background: #0a6c75;
+}
+
+[data-theme='light'] {
+    --body_background: #f5feff;
+    --body_color: #102a42;
+    --special_color: #2caeba;
+    --temp_background: #ffffff ;
+    --active-background: #52d1da;
+}
+
+[data-theme='dark'] {
+    --body_background: #00171a;
+    --body_color: #ffffff;
+    --special_color: #37bcc8;
+    --temp_background: #222222;
+    --active-background: #0a6c75;
+}
+
+body {
+    background-color: var(--body_background);
+    color: var(--body_color);
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+*{
+    transition: all 0.3s ease-in-out;
+}
